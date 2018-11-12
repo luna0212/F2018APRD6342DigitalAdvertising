@@ -5,7 +5,7 @@ import re
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from watson_developer_cloud.natural_language_understanding_v1 import Features, EntitiesOptions, KeywordsOptions
 
-#Instantiate TA Object with your Credentials
+#Instantiate NLU Object with your Credentials
 service = NaturalLanguageUnderstandingV1(
      version='2018-03-16',
      #url is optional, and defaults to the URL below. Use the correct URL for your region.
