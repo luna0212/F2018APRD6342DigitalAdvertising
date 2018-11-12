@@ -61,4 +61,4 @@ for index, ad_text in df['Ad_Text '].iteritems():
                 continue
 
 
-test_data.to_csv('/Users/pudin/Desktop/digital/project1/IBM_output.csv')
+test_data.to_csv('IBM_test_data.csv')
